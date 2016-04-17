@@ -27,5 +27,9 @@ RSpec.describe GoatsController, type: :routing do
       expect(:delete => "/api/goats/1").to route_to("goats#destroy", :id => "1")
     end
 
+    it 'routes to POST #reset' do
+      expect(post: '/api/goats/reset').to route_to('goats#reset')
+    end
+
   end
 end

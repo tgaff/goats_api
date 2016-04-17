@@ -1,4 +1,9 @@
 class GoatsController < ApplicationController
+  # #reset needs this to access goat seed data
+  require 'goat_data'
+  include GoatData
+
+
   before_action :set_goat, only: [:show, :update, :destroy]
 
   # GET /goats
@@ -36,6 +41,10 @@ class GoatsController < ApplicationController
   # DELETE /goats/1
   def destroy
     @goat.destroy
+  end
+
+  def reset
+    reset_goats
   end
 
   private

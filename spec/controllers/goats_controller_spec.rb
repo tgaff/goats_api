@@ -141,4 +141,11 @@ RSpec.describe GoatsController, type: :controller do
     end
   end
 
+  describe "POST #reset" do
+    it "resets the goats in the db" do
+      FactoryGirl.create(:goat)
+      expect { post :reset, valid_session }.to change{Goat.count}.from(1).to(4)
+    end
+  end
+
 end

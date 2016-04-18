@@ -6,7 +6,7 @@ module GoatData
      charisma: 3,
      latitude: 30.703639,
      longitude: -9.861236,
-     color: 'grey',
+     color: 'white',
      birthdate: 300.days.ago,
      image_url: 'http://www.publicdomainpictures.net/pictures/50000/nahled/white-goat.jpg'
     },

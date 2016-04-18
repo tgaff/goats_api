@@ -55,6 +55,9 @@ class GoatsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def goat_params
-      params.require(:goat).permit(:name, :age, :charisma, :latitude, :longitude, :color, :birthdate)
+      puts "params="
+      puts params
+      #params.require(:goat).permit(:name, :age, :charisma, :latitude, :longitude, :color, :birthdate)
+      params.permit(:name, :age, :charisma, :latitude, :longitude, :color, :birthdate)
     end
 end

@@ -37,7 +37,7 @@ module GoatData
     {name: 'Patrick',
      charisma: 8,
      latitude: 30.72,
-     longitude: -9.87,
+     longitude: -9.78,
      color: 'grey',
      birthdate: 18.days.ago,
      image_url: 'https://i.ytimg.com/vi/a4Vwsglnllw/maxresdefault.jpg'
@@ -45,7 +45,7 @@ module GoatData
     {name: 'Denise',
      charisma: 8,
      latitude: 30.67,
-     longitude: -9.84,
+     longitude: -9.7993,
      color: 'brown mottled',
      birthdate: 48.days.ago,
      image_url: 'https://pixabay.com/static/uploads/photo/2016/04/06/13/23/goats-1311755_960_720.jpg'
@@ -53,7 +53,7 @@ module GoatData
     {name: 'Regina George',
      charisma: 8,
      latitude: 30.64,
-     longitude: -9.879,
+     longitude: -9.80,
      color: 'white-grey',
      birthdate: 214.days.ago,
      image_url: 'https://upload.wikimedia.org/wikipedia/commons/2/2d/African_Pygmy_Goat_005.jpg'
@@ -61,7 +61,7 @@ module GoatData
     {name: 'Murphy',
      charisma: 8,
      latitude: 30.67,
-     longitude: -9.82,
+     longitude: -9.819,
      color: 'grey',
      birthdate: 180.days.ago,
      image_url: 'https://i.ytimg.com/vi/2ubNq277u4k/maxresdefault.jpg'

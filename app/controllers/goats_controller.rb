@@ -58,6 +58,6 @@ class GoatsController < ApplicationController
       puts "params="
       puts params
       #params.require(:goat).permit(:name, :age, :charisma, :latitude, :longitude, :color, :birthdate)
-      params.permit(:name, :age, :charisma, :latitude, :longitude, :color, :birthdate)
+      params.permit(:name, :age, :charisma, :latitude, :longitude, :color, :birthdate, :image_url)
     end
 end
